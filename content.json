@@ -1,0 +1,8 @@
+{
+  "title": "The Veiled Invitation",
+  "pages": [
+    { "slug": "souls", "title": "The Soul Gallery", "description": "Meet the souls of The Veiled Invitation.", "empty": "The souls will be revealed here." },
+    { "slug": "creatures", "title": "The Creatures of The Pit", "description": "Discover the creatures of The Veiled Invitation.", "empty": "The creatures will be revealed here." },
+    { "slug": "lore", "title": "The Lore Tome", "description": "Enter the world of The Veiled Invitation.", "empty": "The Lore Tome is currently being written." }
+  ]
+}

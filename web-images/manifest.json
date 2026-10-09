@@ -1,0 +1,418 @@
+{
+  "brand/The Veiled Invitation Logo.png": {
+    "small": "82136e530ea85c098983-small.webp",
+    "smallWidth": 480,
+    "medium": "82136e530ea85c098983-medium.webp",
+    "mediumWidth": 960,
+    "full": "82136e530ea85c098983-full.webp",
+    "fullWidth": 1254
+  },
+  "brand/Black Envelope Studios Icon.png": {
+    "small": "4fd0badecb5c53cfd4fa-small.webp",
+    "smallWidth": 480,
+    "medium": "4fd0badecb5c53cfd4fa-medium.webp",
+    "mediumWidth": 960,
+    "full": "4fd0badecb5c53cfd4fa-full.webp",
+    "fullWidth": 1254
+  },
+  "souls/The Host.png": {
+    "small": "58839718c12c77c056e2-small.webp",
+    "smallWidth": 480,
+    "medium": "58839718c12c77c056e2-medium.webp",
+    "mediumWidth": 960,
+    "full": "58839718c12c77c056e2-full.webp",
+    "fullWidth": 1024
+  },
+  "souls/Host's Envelope.png": {
+    "small": "54fd61aa827eece19bb9-small.webp",
+    "smallWidth": 480,
+    "medium": "54fd61aa827eece19bb9-medium.webp",
+    "mediumWidth": 960,
+    "full": "54fd61aa827eece19bb9-full.webp",
+    "fullWidth": 1536
+  },
+  "souls/The Rotting Body.png": {
+    "small": "61b5a3f4a752b3f43d88-small.webp",
+    "smallWidth": 480,
+    "medium": "61b5a3f4a752b3f43d88-medium.webp",
+    "mediumWidth": 960,
+    "full": "61b5a3f4a752b3f43d88-full.webp",
+    "fullWidth": 1024
+  },
+  "souls/The Rotting Body's Envelope.png": {
+    "small": "49846ad240eceb8a0c2f-small.webp",
+    "smallWidth": 480,
+    "medium": "49846ad240eceb8a0c2f-medium.webp",
+    "mediumWidth": 960,
+    "full": "49846ad240eceb8a0c2f-full.webp",
+    "fullWidth": 1672
+  },
+  "souls/The Dreadnought.png": {
+    "small": "abec5c01058a9526c000-small.webp",
+    "smallWidth": 480,
+    "medium": "abec5c01058a9526c000-medium.webp",
+    "mediumWidth": 960,
+    "full": "abec5c01058a9526c000-full.webp",
+    "fullWidth": 1122
+  },
+  "souls/The Dreadnought Envelope.png": {
+    "small": "60ac7b4f6878d0a2d1f7-small.webp",
+    "smallWidth": 480,
+    "medium": "60ac7b4f6878d0a2d1f7-medium.webp",
+    "mediumWidth": 960,
+    "full": "60ac7b4f6878d0a2d1f7-full.webp",
+    "fullWidth": 1536
+  },
+  "souls/The Tormented Prisoner.png": {
+    "small": "97330bdd5dc2430c75d7-small.webp",
+    "smallWidth": 480,
+    "medium": "97330bdd5dc2430c75d7-medium.webp",
+    "mediumWidth": 960,
+    "full": "97330bdd5dc2430c75d7-full.webp",
+    "fullWidth": 1024
+  },
+  "souls/The Tormented Prisoner Envelope.png": {
+    "small": "3d81fa2e108aaad614b4-small.webp",
+    "smallWidth": 480,
+    "medium": "3d81fa2e108aaad614b4-medium.webp",
+    "mediumWidth": 960,
+    "full": "3d81fa2e108aaad614b4-full.webp",
+    "fullWidth": 1672
+  },
+  "souls/The One Who is Many.png": {
+    "small": "d10727259f2e52dc710d-small.webp",
+    "smallWidth": 480,
+    "medium": "d10727259f2e52dc710d-medium.webp",
+    "mediumWidth": 960,
+    "full": "d10727259f2e52dc710d-full.webp",
+    "fullWidth": 1086
+  },
+  "souls/The One Who is Many Envelope.png": {
+    "small": "537deeb1c2a32dbcfef9-small.webp",
+    "smallWidth": 480,
+    "medium": "537deeb1c2a32dbcfef9-medium.webp",
+    "mediumWidth": 960,
+    "full": "537deeb1c2a32dbcfef9-full.webp",
+    "fullWidth": 1536
+  },
+  "creatures/The Twins.png": {
+    "small": "b87bb6cb489d03bfe657-small.webp",
+    "smallWidth": 480,
+    "medium": "b87bb6cb489d03bfe657-medium.webp",
+    "mediumWidth": 960,
+    "full": "b87bb6cb489d03bfe657-full.webp",
+    "fullWidth": 1086
+  },
+  "creatures/The Twins Hand.png": {
+    "small": "c077f29a0e482dbd9928-small.webp",
+    "smallWidth": 480,
+    "medium": "c077f29a0e482dbd9928-medium.webp",
+    "mediumWidth": 960,
+    "full": "c077f29a0e482dbd9928-full.webp",
+    "fullWidth": 1086
+  },
+  "creatures/Un-Gulg.png": {
+    "small": "5b1f3c733a7bd864821b-small.webp",
+    "smallWidth": 480,
+    "medium": "5b1f3c733a7bd864821b-medium.webp",
+    "mediumWidth": 960,
+    "full": "5b1f3c733a7bd864821b-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/Un-Gulg Hand.png": {
+    "small": "8eb08c031b4a7f510914-small.webp",
+    "smallWidth": 480,
+    "medium": "8eb08c031b4a7f510914-medium.webp",
+    "mediumWidth": 960,
+    "full": "8eb08c031b4a7f510914-full.webp",
+    "fullWidth": 1150
+  },
+  "creatures/The Severant.png": {
+    "small": "7d921c01eb1ed69412b8-small.webp",
+    "smallWidth": 480,
+    "medium": "7d921c01eb1ed69412b8-medium.webp",
+    "mediumWidth": 960,
+    "full": "7d921c01eb1ed69412b8-full.webp",
+    "fullWidth": 1086
+  },
+  "creatures/The Severant Hand.png": {
+    "small": "381dda77a46c189eeb4d-small.webp",
+    "smallWidth": 480,
+    "medium": "381dda77a46c189eeb4d-medium.webp",
+    "mediumWidth": 960,
+    "full": "381dda77a46c189eeb4d-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Oculith.png": {
+    "small": "64b1cdfeaa07cf247f1a-small.webp",
+    "smallWidth": 480,
+    "medium": "64b1cdfeaa07cf247f1a-medium.webp",
+    "mediumWidth": 960,
+    "full": "64b1cdfeaa07cf247f1a-full.webp",
+    "fullWidth": 1184
+  },
+  "creatures/The Oculith Hand Sepia.png": {
+    "small": "78876d7c5b1cd425e9cb-small.webp",
+    "smallWidth": 480,
+    "medium": "78876d7c5b1cd425e9cb-medium.webp",
+    "mediumWidth": 960,
+    "full": "78876d7c5b1cd425e9cb-full.webp",
+    "fullWidth": 1254
+  },
+  "creatures/The Mutilator.png": {
+    "small": "646b4f73f913592d3f5c-small.webp",
+    "smallWidth": 480,
+    "medium": "646b4f73f913592d3f5c-medium.webp",
+    "mediumWidth": 960,
+    "full": "646b4f73f913592d3f5c-full.webp",
+    "fullWidth": 1086
+  },
+  "creatures/Mutilator Hand.png": {
+    "small": "b70dae1740bdf4c80ab0-small.webp",
+    "smallWidth": 480,
+    "medium": "b70dae1740bdf4c80ab0-medium.webp",
+    "mediumWidth": 960,
+    "full": "b70dae1740bdf4c80ab0-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Fleshstripper Borderless.png": {
+    "small": "a39f6d4c3597e872d3b6-small.webp",
+    "smallWidth": 480,
+    "medium": "a39f6d4c3597e872d3b6-medium.webp",
+    "mediumWidth": 960,
+    "full": "a39f6d4c3597e872d3b6-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/The Fleshstripper Hand Borderless.png": {
+    "small": "7c73ddf20ce0569bbc05-small.webp",
+    "smallWidth": 480,
+    "medium": "7c73ddf20ce0569bbc05-medium.webp",
+    "mediumWidth": 960,
+    "full": "7c73ddf20ce0569bbc05-full.webp",
+    "fullWidth": 1091
+  },
+  "creatures/The Charred Image.png": {
+    "small": "6b0dd8dd3874a27ed4de-small.webp",
+    "smallWidth": 480,
+    "medium": "6b0dd8dd3874a27ed4de-medium.webp",
+    "mediumWidth": 960,
+    "full": "6b0dd8dd3874a27ed4de-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/The Charred hand.png": {
+    "small": "bc0b42a6bb2e608d4d3b-small.webp",
+    "smallWidth": 480,
+    "medium": "bc0b42a6bb2e608d4d3b-medium.webp",
+    "mediumWidth": 960,
+    "full": "bc0b42a6bb2e608d4d3b-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/The Bloat Art.png": {
+    "small": "90363547084ac89c05e2-small.webp",
+    "smallWidth": 480,
+    "medium": "90363547084ac89c05e2-medium.webp",
+    "mediumWidth": 960,
+    "full": "90363547084ac89c05e2-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/The Bloat Hand.png": {
+    "small": "78aefead20f67ae3aaa9-small.webp",
+    "smallWidth": 480,
+    "medium": "78aefead20f67ae3aaa9-medium.webp",
+    "mediumWidth": 960,
+    "full": "78aefead20f67ae3aaa9-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/Cleaved.png": {
+    "small": "19178cee8b5e7ce4adb8-small.webp",
+    "smallWidth": 480,
+    "medium": "19178cee8b5e7ce4adb8-medium.webp",
+    "mediumWidth": 960,
+    "full": "19178cee8b5e7ce4adb8-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/The Cleaved Hand.png": {
+    "small": "b9e96f67722dbdc68439-small.webp",
+    "smallWidth": 480,
+    "medium": "b9e96f67722dbdc68439-medium.webp",
+    "mediumWidth": 960,
+    "full": "b9e96f67722dbdc68439-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/Nightchild.png": {
+    "small": "8f03004fb7fb14e1e6f6-small.webp",
+    "smallWidth": 480,
+    "medium": "8f03004fb7fb14e1e6f6-medium.webp",
+    "mediumWidth": 960,
+    "full": "8f03004fb7fb14e1e6f6-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/The Nightchild Hand.png": {
+    "small": "f08def60813ebaea1050-small.webp",
+    "smallWidth": 480,
+    "medium": "f08def60813ebaea1050-medium.webp",
+    "mediumWidth": 960,
+    "full": "f08def60813ebaea1050-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/The Voices.png": {
+    "small": "86b8c4d6e9f0e2565886-small.webp",
+    "smallWidth": 480,
+    "medium": "86b8c4d6e9f0e2565886-medium.webp",
+    "mediumWidth": 960,
+    "full": "86b8c4d6e9f0e2565886-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Voices Head.png": {
+    "small": "cf1dde81e845297194f7-small.webp",
+    "smallWidth": 480,
+    "medium": "cf1dde81e845297194f7-medium.webp",
+    "mediumWidth": 960,
+    "full": "cf1dde81e845297194f7-full.webp",
+    "fullWidth": 1198
+  },
+  "creatures/The Whisper.png": {
+    "small": "46b3b29e16a2aed53ff9-small.webp",
+    "smallWidth": 480,
+    "medium": "46b3b29e16a2aed53ff9-medium.webp",
+    "mediumWidth": 960,
+    "full": "46b3b29e16a2aed53ff9-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Whisper Hand.png": {
+    "small": "ac9ccbf7b995068a9a0a-small.webp",
+    "smallWidth": 480,
+    "medium": "ac9ccbf7b995068a9a0a-medium.webp",
+    "mediumWidth": 960,
+    "full": "ac9ccbf7b995068a9a0a-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Marrowslurper.png": {
+    "small": "218d9e7cf4c7d06398c3-small.webp",
+    "smallWidth": 480,
+    "medium": "218d9e7cf4c7d06398c3-medium.webp",
+    "mediumWidth": 960,
+    "full": "218d9e7cf4c7d06398c3-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Marrowslurper Hand.png": {
+    "small": "5c194ef78c414c56ec5b-small.webp",
+    "smallWidth": 480,
+    "medium": "5c194ef78c414c56ec5b-medium.webp",
+    "mediumWidth": 960,
+    "full": "5c194ef78c414c56ec5b-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Crawler.png": {
+    "small": "ad27d5474bb5c42001bf-small.webp",
+    "smallWidth": 480,
+    "medium": "ad27d5474bb5c42001bf-medium.webp",
+    "mediumWidth": 960,
+    "full": "ad27d5474bb5c42001bf-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Crawler Hand.png": {
+    "small": "80c3823a122e354e72fa-small.webp",
+    "smallWidth": 480,
+    "medium": "80c3823a122e354e72fa-medium.webp",
+    "mediumWidth": 960,
+    "full": "80c3823a122e354e72fa-full.webp",
+    "fullWidth": 1149
+  },
+  "creatures/The Fear Chaser.png": {
+    "small": "f163de38b3e4775cc0ad-small.webp",
+    "smallWidth": 480,
+    "medium": "f163de38b3e4775cc0ad-medium.webp",
+    "mediumWidth": 960,
+    "full": "f163de38b3e4775cc0ad-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/The Fear Chaser Hand.png": {
+    "small": "2d15c024b57bc4d716d1-small.webp",
+    "smallWidth": 480,
+    "medium": "2d15c024b57bc4d716d1-medium.webp",
+    "mediumWidth": 960,
+    "full": "2d15c024b57bc4d716d1-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/Mag Mo-Nai.png": {
+    "small": "56f8e73f374f4de394f3-small.webp",
+    "smallWidth": 480,
+    "medium": "56f8e73f374f4de394f3-medium.webp",
+    "mediumWidth": 960,
+    "full": "56f8e73f374f4de394f3-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/Mag Mo-Nai Hand.png": {
+    "small": "766cdf42254376e9fd03-small.webp",
+    "smallWidth": 480,
+    "medium": "766cdf42254376e9fd03-medium.webp",
+    "mediumWidth": 960,
+    "full": "766cdf42254376e9fd03-full.webp",
+    "fullWidth": 1122
+  },
+  "creatures/Asmodeus.png": {
+    "small": "47a44f6f9c00b4dac5b7-small.webp",
+    "smallWidth": 480,
+    "medium": "47a44f6f9c00b4dac5b7-medium.webp",
+    "mediumWidth": 960,
+    "full": "47a44f6f9c00b4dac5b7-full.webp",
+    "fullWidth": 1184
+  },
+  "creatures/Asmodeus Hand.png": {
+    "small": "d4c35c750fb6ef488e7e-small.webp",
+    "smallWidth": 480,
+    "medium": "d4c35c750fb6ef488e7e-medium.webp",
+    "mediumWidth": 960,
+    "full": "d4c35c750fb6ef488e7e-full.webp",
+    "fullWidth": 1184
+  },
+  "creatures/Helvangarde.png": {
+    "small": "083d6e246ed6426df1df-small.webp",
+    "smallWidth": 480,
+    "medium": "083d6e246ed6426df1df-medium.webp",
+    "mediumWidth": 960,
+    "full": "083d6e246ed6426df1df-full.webp",
+    "fullWidth": 1192
+  },
+  "creatures/Helvangarde Hand.png": {
+    "small": "18c093700c8f4ba9eacd-small.webp",
+    "smallWidth": 480,
+    "medium": "18c093700c8f4ba9eacd-medium.webp",
+    "mediumWidth": 960,
+    "full": "18c093700c8f4ba9eacd-full.webp",
+    "fullWidth": 1184
+  },
+  "creatures/Yggdrasil Borderless.png": {
+    "small": "96d3f788fe30af3b6b62-small.webp",
+    "smallWidth": 480,
+    "medium": "96d3f788fe30af3b6b62-medium.webp",
+    "mediumWidth": 960,
+    "full": "96d3f788fe30af3b6b62-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/Yggdrasil Hand Borderless.png": {
+    "small": "716740756c4e19623535-small.webp",
+    "smallWidth": 480,
+    "medium": "716740756c4e19623535-medium.webp",
+    "mediumWidth": 960,
+    "full": "716740756c4e19623535-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/Child Eater Borderless.png": {
+    "small": "7fcbae241da525358944-small.webp",
+    "smallWidth": 480,
+    "medium": "7fcbae241da525358944-medium.webp",
+    "mediumWidth": 960,
+    "full": "7fcbae241da525358944-full.webp",
+    "fullWidth": 1024
+  },
+  "creatures/Child Eater Hand Borderless.png": {
+    "small": "0ac61dcac0b3459826a5-small.webp",
+    "smallWidth": 480,
+    "medium": "0ac61dcac0b3459826a5-medium.webp",
+    "mediumWidth": 960,
+    "full": "0ac61dcac0b3459826a5-full.webp",
+    "fullWidth": 1024
+  }
+}

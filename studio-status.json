@@ -1,0 +1,9 @@
+{
+  "title": "STUDIO LIVE STATUS",
+  "selected": "inactive",
+  "options": {
+    "inactive": "No active development or playtesting underway.",
+    "playtesting": "Playtesting live right now! Come watch in Discord!",
+    "developing": "Developing live right now! Join us in Discord!"
+  }
+}
