@@ -50,7 +50,7 @@ h1 { font-size: 72px; line-height: 1.12; margin: 0 0 28px; overflow-wrap: anywhe
 .hero-logo { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
 .intro { font-size: 18px; color: var(--muted); max-width: 540px; line-height: 1.75; margin: 0 0 30px; }
 .hero .intro { max-width: 620px; margin: 0 auto 12px; }
-.home-status-bar { padding: 16px 5% 0; }
+.home-status-bar { padding: 16px 5% 36px; }
 .studio-status { display: flex; align-items: center; gap: 12px; min-height: 44px; width: fit-content; max-width: 100%; padding: 9px 16px; border: 1px solid var(--line); border-top-color: var(--gold); border-radius: 3px; background: var(--surface); text-align: left; }
 @media (max-width: 640px) { .home-status-bar { padding-inline: 6%; } }
 .studio-status-mark { flex: 0 0 14px; width: 14px; height: 14px; border: 1px solid var(--gold); border-radius: 50%; background: var(--wax); box-shadow: inset 0 0 0 3px var(--surface); }
