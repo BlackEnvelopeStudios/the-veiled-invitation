@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Black Envelope Studios | Status Control</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header><span>BLACK ENVELOPE STUDIOS</span><small>Private Control</small></header>
+  <main>
+    <h1>Studio Live Status</h1>
+    <form>
+      <fieldset disabled>
+        <legend>Activity</legend>
+        <label><input type="radio" name="selected" value="inactive"><span class="light inactive"></span><span>No active development or playtesting underway.</span></label>
+        <label><input type="radio" name="selected" value="playtesting"><span class="light"></span><span>Playtesting live right now! Come watch in Discord!</span></label>
+        <label><input type="radio" name="selected" value="developing"><span class="light"></span><span>Developing live right now! Join us in Discord!</span></label>
+      </fieldset>
+      <button type="submit" disabled>Publish Status</button>
+      <button type="button" id="refresh">Refresh</button>
+    </form>
+    <section aria-label="Website status">
+      <div><a href="https://www.theveiledinvitation.com/" target="_blank" rel="noopener noreferrer">The Veiled Invitation</a><span id="game">Checking...</span></div>
+      <div><a href="https://blackenvelopestudios.com/#games" target="_blank" rel="noopener noreferrer">Black Envelope Studios</a><span id="studio">Checking...</span></div>
+    </section>
+    <p id="message" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>

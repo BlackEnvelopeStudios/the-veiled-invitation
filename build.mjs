@@ -235,7 +235,7 @@ function render(page, soul = null, creature = null) {
     <nav aria-label="Main navigation">${nav}</nav>
   </header>
   ${!page && !soul && !creature ? `<div class="home-status-bar">
-    <div class="studio-status" role="status">
+    <div class="studio-status" data-studio-status="${escape(studioStatus.selected)}" role="status">
       <span class="studio-status-mark" aria-hidden="true"></span>
       <span class="studio-status-copy"><span class="studio-status-label">${escape(studioStatus.title)}</span><span class="studio-status-value">${escape(studioStatus.options[studioStatus.selected])}</span></span>
     </div>

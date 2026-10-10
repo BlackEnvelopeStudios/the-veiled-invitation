@@ -54,6 +54,8 @@ h1 { font-size: 72px; line-height: 1.12; margin: 0 0 28px; overflow-wrap: anywhe
 .studio-status { display: flex; align-items: center; gap: 12px; min-height: 44px; width: fit-content; max-width: 100%; padding: 9px 16px; border: 1px solid var(--line); border-top-color: var(--gold); border-radius: 3px; background: var(--surface); text-align: left; }
 @media (max-width: 640px) { .home-status-bar { padding-inline: 6%; } }
 .studio-status-mark { flex: 0 0 14px; width: 14px; height: 14px; border: 1px solid var(--gold); border-radius: 50%; background: var(--wax); box-shadow: inset 0 0 0 3px var(--surface); }
+.studio-status[data-studio-status="playtesting"] .studio-status-mark,
+.studio-status[data-studio-status="developing"] .studio-status-mark { background: #528660; }
 .studio-status-copy { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; min-width: 0; }
 .studio-status-label { color: var(--gold); font: 11px/1.5 Arial, Helvetica, sans-serif; text-transform: uppercase; white-space: nowrap; }
 .studio-status-value { color: var(--silver); font: 16px/1.4 var(--heading-font); overflow-wrap: anywhere; }
