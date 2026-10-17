@@ -182,7 +182,7 @@ function render(page, soul = null, creature = null) {
     <section class="home-chapter" aria-labelledby="home-souls-title">
       <div class="chapter-heading">
         <div><p class="eyebrow">The invited</p><h2 id="home-souls-title">The Soul Gallery</h2></div>
-        <p>Personally chosen by The Host. Each Soul brings a history, an ambition, and a reason to accept the invitation.</p>
+        <p>Beings personally chosen by The Host. Each Soul brings a history, an ambition, and it's own reason to accept the invitation.</p>
       </div>
       <div class="home-art-grid">${['the-host', 'the-tormented-prisoner', 'the-dreadnought'].map(slug => {
         const item = souls.find(soul => soul.slug === slug);
