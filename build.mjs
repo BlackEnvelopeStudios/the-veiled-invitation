@@ -193,7 +193,7 @@ function render(page, soul = null, creature = null) {
     <section class="home-chapter" aria-labelledby="home-pit-title">
       <div class="chapter-heading">
         <div><p class="eyebrow">What waits below</p><h2 id="home-pit-title">The Creatures of The Pit</h2></div>
-        <p>From the first things to answer The Pit&#8217;s call to the rare apex horrors above every Depth. The further you descend, the less forgiving it becomes.</p>
+        <p>From the first things to answer The Pit&#8217;s call to the rare apex horrors that wait in the deepest depths. The further you descend, the less forgiving it becomes.</p>
       </div>
       <div class="home-art-grid">${['the-charred', 'the-fear-chaser', 'asmodeus'].map(slug => {
         const item = creatures.find(creature => creature.slug === slug);
