@@ -6,6 +6,10 @@ import { createHash } from 'node:crypto';
 const root = path.dirname(fileURLToPath(import.meta.url));
 const output = path.join(root, 'dist');
 const content = JSON.parse(await readFile(path.join(root, 'content.json'), 'utf8'));
+// Display change notices with the latest date at the top.
+for (const category of content.pages.find(page => page.slug === 'updates')?.categories || []) {
+  category.entries?.sort((a, b) => b.date.localeCompare(a.date));
+}
 const redditIcon = await readFile(path.join(root, 'assets/icons/reddit.svg'), 'utf8');
 const discordIcon = await readFile(path.join(root, 'assets/icons/discord.svg'), 'utf8');
 const studioStatus = JSON.parse(await readFile(path.join(root, 'studio-status.json'), 'utf8'));
@@ -121,12 +125,25 @@ function creatureDirectory() {
   <script src="../creatures.js" defer></script>`;
 }
 
-function render(page, soul = null, creature = null) {
+function render(page, soul = null, creature = null, updateCategory = null) {
   const detail = soul || creature;
-  const prefix = detail ? '../../' : page ? '../' : './';
-  const nav = content.pages.map(item => `<a href="${prefix}${item.slug}/"${page?.slug === item.slug ? ` aria-current="${detail ? 'location' : 'page'}"` : ''}>${escape(item.title)}</a>`).join('');
-  const title = detail ? `${detail.name} | ${content.title}` : page ? `${page.title} | ${content.title}` : content.title;
-  const body = creature ? `
+  const prefix = detail || updateCategory ? '../../' : page ? '../' : './';
+  const nav = content.pages.map(item => `<a href="${prefix}${item.slug}/"${page?.slug === item.slug ? ` aria-current="${detail || updateCategory ? 'location' : 'page'}"` : ''}>${escape(item.title)}</a>`).join('');
+  const title = updateCategory ? `${updateCategory.title} | Updates | ${content.title}` : detail ? `${detail.name} | ${content.title}` : page ? `${page.title} | ${content.title}` : content.title;
+  const body = updateCategory ? `
+    <section class="page-heading">
+      <a class="back" href="../">Back to Updates</a>
+      <p class="eyebrow">Updates</p>
+      <h1>${escape(updateCategory.title)}</h1>
+      <p class="intro">Change notices for ${escape(updateCategory.title)}.</p>
+    </section>
+    <section class="update-notices" aria-label="Change notices">
+      ${updateCategory.entries?.length ? updateCategory.entries.map(entry => `<article class="update-entry">
+        <h2><time datetime="${escape(entry.date)}">${escape(entry.displayDate)}</time></h2>
+        <p>${escape(entry.text)}</p>
+        ${entry.bullets?.length ? `<ul>${entry.bullets.map(bullet => `<li>${escape(bullet)}</li>`).join('')}</ul>` : ''}
+      </article>`).join('\n') : '<p>No updates posted yet.</p>'}
+    </section>` : creature ? `
     <article class="creature-profile" aria-labelledby="creature-title">
       <a class="back" href="../#${creatureCategories.find(category => category.slugs.includes(creature.slug))?.id || 'depth-i'}">Back to The Creatures of The Pit</a>
       <div class="creature-profile-layout">
@@ -170,7 +187,14 @@ function render(page, soul = null, creature = null) {
     </section>
     ${page.slug === 'souls' ? `<section class="soul-gallery" aria-label="Souls">
       ${souls.map(soul => `<a class="soul-button" href="${soul.slug}/"><span class="soul-envelope${soul.envelopeFit === 'contain' ? ' soul-envelope--contained' : ''}" aria-hidden="true"><img ${imageAttrs('../', 'souls', soul.envelope || 'veiled-envelope.png', '(max-width: 540px) 94vw, 400px')} alt="" loading="lazy"></span><span class="soul-name">${escape(soul.name)}</span></a>`).join('\n      ')}
-    </section>` : page.slug === 'creatures' ? creatureDirectory() : `<section class="unrevealed" aria-label="Publication status">
+    </section>` : page.slug === 'creatures' ? creatureDirectory() : page.slug === 'updates' ? `<div class="updates-grid">
+      ${page.categories.map(category => `<a class="update-category update-category-link" href="${escape(category.id)}/" aria-labelledby="${escape(category.id)}-heading">
+        <h2 id="${escape(category.id)}-heading">${escape(category.title)}</h2>
+        <p class="update-category-description">${escape(category.description)}</p>
+        <p>${category.entries?.length ? `${category.entries.length} update${category.entries.length === 1 ? '' : 's'} · Latest: ${escape(category.entries[0].displayDate)}` : 'No updates posted yet.'}</p>
+        <span class="update-category-action">Read change notices <span aria-hidden="true">→</span></span>
+      </a>`).join('\n')}
+    </div>` : `<section class="unrevealed" aria-label="Publication status">
       <h2>${escape(page.empty)}</h2>
       <span class="status">Coming soon</span>
     </section>`}` : `
@@ -182,7 +206,7 @@ function render(page, soul = null, creature = null) {
     <section class="home-chapter" aria-labelledby="home-souls-title">
       <div class="chapter-heading">
         <div><p class="eyebrow">The invited</p><h2 id="home-souls-title">The Soul Gallery</h2></div>
-        <p>Personally chosen by The Host. Each Soul brings a history, an ambition, and a reason to accept the invitation.</p>
+        <p>Beings personally chosen by The Host. Each Soul brings a history, an ambition, and it's own reason to accept the invitation.</p>
       </div>
       <div class="home-art-grid">${['the-host', 'the-tormented-prisoner', 'the-dreadnought'].map(slug => {
         const item = souls.find(soul => soul.slug === slug);
@@ -193,7 +217,7 @@ function render(page, soul = null, creature = null) {
     <section class="home-chapter" aria-labelledby="home-pit-title">
       <div class="chapter-heading">
         <div><p class="eyebrow">What waits below</p><h2 id="home-pit-title">The Creatures of The Pit</h2></div>
-        <p>From the first things to answer The Pit&#8217;s call to the rare apex horrors above every Depth. The further you descend, the less forgiving it becomes.</p>
+        <p>From the first things to answer The Pit&#8217;s call to the rare apex horrors that wait in the deepest depths. The further you descend, the less forgiving it becomes.</p>
       </div>
       <div class="home-art-grid">${['the-charred', 'the-fear-chaser', 'asmodeus'].map(slug => {
         const item = creatures.find(creature => creature.slug === slug);
@@ -263,6 +287,14 @@ for (const page of content.pages) {
   if (!/^[a-z]+$/.test(page.slug)) throw new Error('Invalid page slug');
   await mkdir(path.join(output, page.slug), { recursive: true });
   await writeFile(path.join(output, page.slug, 'index.html'), render(page));
+  if (page.slug === 'updates') {
+    for (const category of page.categories) {
+      if (!/^[a-z-]+$/.test(category.id)) throw new Error('Invalid update category');
+      const directory = path.join(output, page.slug, category.id);
+      await mkdir(directory, { recursive: true });
+      await writeFile(path.join(directory, 'index.html'), render(page, null, null, category));
+    }
+  }
 }
 await copyFile(path.join(root, 'styles.css'), path.join(output, 'styles.css'));
 await copyFile(path.join(root, 'creatures.js'), path.join(output, 'creatures.js'));

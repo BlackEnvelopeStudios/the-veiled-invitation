@@ -3,6 +3,44 @@
   "pages": [
     { "slug": "souls", "title": "The Soul Gallery", "description": "Meet the souls of The Veiled Invitation.", "empty": "The souls will be revealed here." },
     { "slug": "creatures", "title": "The Creatures of The Pit", "description": "Discover the creatures of The Veiled Invitation.", "empty": "The creatures will be revealed here." },
-    { "slug": "lore", "title": "The Lore Tome", "description": "Enter the world of The Veiled Invitation.", "empty": "The Lore Tome is currently being written." }
+    { "slug": "lore", "title": "The Lore Tome", "description": "Enter the world of The Veiled Invitation.", "empty": "The Lore Tome is currently being written." },
+    { "slug": "updates", "title": "Updates", "description": "Development news and progress from The Veiled Invitation.", "categories": [
+      { "id": "game-development", "title": "Game Development", "description": "Updates pertaining to the game mechanics or storyline." },
+      { "id": "webapp-development", "title": "WebApp Development", "description": "Updates pertaining to the WebApp interface and metadata.", "entries": [
+        { "date": "2026-09-09", "displayDate": "September 9, 2026", "text": "Created The Veiled Invitation web app and built the initial interface.", "bullets": [
+          "Added a themed background.",
+          "Added room selection buttons.",
+          "Added Soul roster selection.",
+          "Added individual stat input.",
+          "Added the ability to disable unavailable choices.",
+          "Added artwork.",
+          "Added narration.",
+          "Added The Vivisection Theatre room.",
+          "Added The Doll Gallery room.",
+          "Developed two events for The Vivisection Theatre: \"The Prize is Deep\" and \"The Missing Patient\".",
+          "Developed the opening of The Doll Gallery."
+        ] },
+        { "date": "2026-09-11", "displayDate": "September 11, 2026", "text": "Added four events for The Doll Gallery:", "bullets": [
+          "The Porcelain Confession",
+          "Don't Look Away",
+          "The Funeral Procession",
+          "The Tea is Still Warm"
+        ] },
+        { "date": "2026-09-12", "displayDate": "September 12, 2026", "text": "Expanded the WebApp’s events and locations.", "bullets": [
+          "Added narration to The Doll Gallery events.",
+          "Added one more event for The Vivisection Theatre: \"The Cause of Death\".",
+          "Built The Life-Tithe Emporium’s introduction and pages."
+        ] },
+        { "date": "2026-09-15", "displayDate": "September 15, 2026", "text": "Developed the WebApp to be completely mobile, broadcasting from a mobile hot spot on a Raspberry Pi 3." }
+      ] },
+      { "id": "playtest-simulator-development", "title": "Playtest Simulator Development", "description": "Updates for the hardware and software development of the mechanics simulator, as well as the results of ran tests.", "entries": [
+        { "date": "2026-10-12", "displayDate": "October 12, 2026", "text": "Finished acquisition of simulation hardware. (40 CPU threads, 86GB RAM). Waiting on unmanaged ethernet port arrival." },
+        { "date": "2026-10-14", "displayDate": "October 14, 2026", "text": "Playtest Simulator software begins development.", "bullets": ["developing mechanics within software.", "Fleshing out if/and's within ruleset."] },
+        { "date": "2026-10-13", "displayDate": "October 13, 2026", "text": "Repurposed a Z220 workstation as the simulation controller. Fresh installation of Linux done and awaiting connection of simulation hardware and software integration." }
+      ] },
+      { "id": "website-development", "title": "Website Development", "description": "This is for changes and updates to The Veiled Invitation website.", "entries": [
+        { "date": "2026-10-23", "displayDate": "October 23, 2026", "text": "Added \"Updates\" page to keep player's up-to-date with the latest changes." }
+      ] }
+    ] }
   ]
 }
