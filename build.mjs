@@ -275,6 +275,7 @@ function render(page, soul = null, creature = null, updateCategory = null) {
   <footer><span>The Veiled Invitation</span><span>Black Envelope Studios</span></footer>
   </div>
   <script src="${prefix}content-warning.js"></script>
+  <script defer src="${prefix}visitor-tracking.js"></script>
   ${detail?.image ? `<script src="${prefix}artwork-viewer.js"></script>` : ''}
 </body>
 </html>
@@ -297,6 +298,8 @@ for (const page of content.pages) {
   }
 }
 await copyFile(path.join(root, 'styles.css'), path.join(output, 'styles.css'));
+await copyFile(path.join(root, 'visitor-tracking.js'), path.join(output, 'visitor-tracking.js'));
+await copyFile(path.join(root, 'analytics.json'), path.join(output, 'analytics.json'));
 await copyFile(path.join(root, 'creatures.js'), path.join(output, 'creatures.js'));
 await copyFile(path.join(root, 'content-warning.js'), path.join(output, 'content-warning.js'));
 await copyFile(path.join(root, 'artwork-viewer.js'), path.join(output, 'artwork-viewer.js'));

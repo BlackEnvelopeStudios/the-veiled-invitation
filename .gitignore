@@ -1,2 +1,4 @@
 dist/
 node_modules/
+dashboard/analytics.local.json
+dashboard/analytics.local.json.tmp
