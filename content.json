@@ -119,6 +119,11 @@
           "description": "This is for changes and updates to The Veiled Invitation website.",
           "entries": [
             {
+              "date": "2026-10-24",
+              "displayDate": "October 24, 2026",
+              "text": "Developed website dashboard which allows:\n- Visibility on unique visitor count\n- Modifying \"Studio Live Status\" report on both the game and studio site.\n- Ability to push development updates to the game site update section."
+            },
+            {
               "date": "2026-10-23",
               "displayDate": "October 23, 2026",
               "text": "Added \"Updates\" page to keep player's up-to-date with the latest changes."
