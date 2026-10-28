@@ -297,6 +297,10 @@ footer span:first-child { color: var(--gold); }
 .update-notices h2 { margin: 0 0 16px; }
 .update-notices h2 time { font-size: 24px; }
 .update-notices p { color: var(--muted); white-space: pre-line; }
+.update-lines { margin: 0; padding-left: 1em; color: var(--muted); }
+.update-lines li { padding-left: .25em; margin-bottom: .4em; }
+.update-lines li::marker { content: "- "; }
+.update-lines .update-line-unmarked::marker { content: ""; }
 
 .update-category .update-category-description {
   margin-bottom: 20px;

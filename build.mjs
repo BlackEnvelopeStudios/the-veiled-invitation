@@ -2,6 +2,7 @@ import { readFile, mkdir, writeFile, copyFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
+import { updateLines } from './update-lines.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const output = path.join(root, 'dist');
@@ -140,8 +141,7 @@ function render(page, soul = null, creature = null, updateCategory = null) {
     <section class="update-notices" aria-label="Change notices">
       ${updateCategory.entries?.length ? updateCategory.entries.map(entry => `<article class="update-entry">
         <h2><time datetime="${escape(entry.date)}">${escape(entry.displayDate)}</time></h2>
-        <p>${escape(entry.text)}</p>
-        ${entry.bullets?.length ? `<ul>${entry.bullets.map(bullet => `<li>${escape(bullet)}</li>`).join('')}</ul>` : ''}
+        <ul class="update-lines">${updateLines(entry).map((line, index) => `<li${entry.unmarkedLines?.includes(index) ? ' class="update-line-unmarked"' : ''}>${escape(line)}</li>`).join('')}</ul>
       </article>`).join('\n') : '<p>No updates posted yet.</p>'}
     </section>` : creature ? `
     <article class="creature-profile" aria-labelledby="creature-title">
