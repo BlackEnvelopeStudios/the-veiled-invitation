@@ -30,6 +30,11 @@
           "description": "Updates pertaining to the game mechanics or storyline.",
           "entries": [
             {
+              "date": "2026-10-28",
+              "displayDate": "October 28, 2026",
+              "text": "- Created rough draft of 3D model art for three unreleased souls.\n- Created rough draft 3D models for three unreleased souls.\n- Created rough draft for Soul art for two unreleased souls."
+            },
+            {
               "date": "2026-10-25",
               "displayDate": "October 25, 2026",
               "text": "Finished up final miniature models for all current playtest Souls.\nDesigned rough models for 3 unreleased Souls.\nDesigned mechanics and playstyle for 1 unreleased Soul."
