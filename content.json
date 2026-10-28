@@ -47,6 +47,37 @@
           "description": "Updates pertaining to the WebApp interface and metadata.",
           "entries": [
             {
+              "date": "2026-10-28",
+              "displayDate": "October 28, 2026",
+              "text": "- Generated and integrated the following narrations:\n5 entries for \"Don't Look Away\" event for \"The Doll Gallery\" room.\n6 entries for \"The Funeral Procession\" event for \"The Doll Gallery\" room.\n2 entries for \"The Porcelain Confession\" event for \"The Doll Gallery\" room.\n5 entries for \"The Tea is Still Warm\" event for \"The Doll Gallery\" room."
+            },
+            {
+              "date": "2026-09-15",
+              "displayDate": "September 15, 2026",
+              "text": "Developed the WebApp to be completely mobile, broadcasting from a mobile hot spot on a Raspberry Pi 3."
+            },
+            {
+              "date": "2026-09-12",
+              "displayDate": "September 12, 2026",
+              "text": "Expanded the WebApp’s events and locations.",
+              "bullets": [
+                "Added narration to The Doll Gallery events.",
+                "Added one more event for The Vivisection Theatre: \"The Cause of Death\".",
+                "Built The Life-Tithe Emporium’s introduction and pages."
+              ]
+            },
+            {
+              "date": "2026-09-11",
+              "displayDate": "September 11, 2026",
+              "text": "Added four events for The Doll Gallery:",
+              "bullets": [
+                "The Porcelain Confession",
+                "Don't Look Away",
+                "The Funeral Procession",
+                "The Tea is Still Warm"
+              ]
+            },
+            {
               "date": "2026-09-09",
               "displayDate": "September 9, 2026",
               "text": "Created The Veiled Invitation web app and built the initial interface.",
@@ -63,32 +94,6 @@
                 "Developed two events for The Vivisection Theatre: \"The Prize is Deep\" and \"The Missing Patient\".",
                 "Developed the opening of The Doll Gallery."
               ]
-            },
-            {
-              "date": "2026-09-11",
-              "displayDate": "September 11, 2026",
-              "text": "Added four events for The Doll Gallery:",
-              "bullets": [
-                "The Porcelain Confession",
-                "Don't Look Away",
-                "The Funeral Procession",
-                "The Tea is Still Warm"
-              ]
-            },
-            {
-              "date": "2026-09-12",
-              "displayDate": "September 12, 2026",
-              "text": "Expanded the WebApp’s events and locations.",
-              "bullets": [
-                "Added narration to The Doll Gallery events.",
-                "Added one more event for The Vivisection Theatre: \"The Cause of Death\".",
-                "Built The Life-Tithe Emporium’s introduction and pages."
-              ]
-            },
-            {
-              "date": "2026-09-15",
-              "displayDate": "September 15, 2026",
-              "text": "Developed the WebApp to be completely mobile, broadcasting from a mobile hot spot on a Raspberry Pi 3."
             }
           ]
         },
