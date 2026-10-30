@@ -30,6 +30,11 @@
           "description": "Updates pertaining to the game mechanics or storyline.",
           "entries": [
             {
+              "date": "2026-10-29",
+              "displayDate": "October 29, 2026",
+              "text": "- Designed rough Soul art for all remaining unreleased souls.\n- Designed rough 3D model art for 12 unreleased souls.\n- Designed rough 3D models for 12 unreleased souls."
+            },
+            {
               "date": "2026-10-28",
               "displayDate": "October 28, 2026",
               "text": "- Created rough draft of 3D model art for three unreleased souls.\n- Created rough draft 3D models for three unreleased souls.\n- Created rough draft for Soul art for two unreleased souls."
@@ -50,7 +55,12 @@
               "date": "2026-10-28",
               "displayDate": "October 28, 2026",
               "text": "- Generated and integrated the following narrations:\n5 entries for \"Don't Look Away\" event for \"The Doll Gallery\" room.\n6 entries for \"The Funeral Procession\" event for \"The Doll Gallery\" room.\n2 entries for \"The Porcelain Confession\" event for \"The Doll Gallery\" room.\n5 entries for \"The Tea is Still Warm\" event for \"The Doll Gallery\" room.",
-              "unmarkedLines": [1, 2, 3, 4]
+              "unmarkedLines": [
+                1,
+                2,
+                3,
+                4
+              ]
             },
             {
               "date": "2026-09-15",
@@ -71,7 +81,12 @@
               "date": "2026-09-11",
               "displayDate": "September 11, 2026",
               "text": "Added four events for The Doll Gallery:",
-              "unmarkedLines": [1, 2, 3, 4],
+              "unmarkedLines": [
+                1,
+                2,
+                3,
+                4
+              ],
               "bullets": [
                 "The Porcelain Confession",
                 "Don't Look Away",
