@@ -120,9 +120,9 @@
           "description": "Updates for the hardware and software development of the mechanics simulator, as well as the results of ran tests.",
           "entries": [
             {
-              "date": "2026-10-12",
-              "displayDate": "October 12, 2026",
-              "text": "Finished acquisition of simulation hardware. (40 CPU threads, 86GB RAM). Waiting on unmanaged ethernet port arrival."
+              "date": "2026-11-07",
+              "displayDate": "November 7, 2026",
+              "text": "- Upgraded simulation hardware from 86GB of RAM to 192GB of RAM.\n- All hardware is now physically connected to the controller via ethernet.\n- 20% of hardware has had it's firmware changed, along with a fresh install of Ubuntu Server.\n- 20% of hardware has now been made headless.\n- 20% of hardware is now connected via SSH to controller.\n- 20% of hardware is now being monitored from controller using Netdata."
             },
             {
               "date": "2026-10-14",
@@ -137,6 +137,11 @@
               "date": "2026-10-13",
               "displayDate": "October 13, 2026",
               "text": "Repurposed a Z220 workstation as the simulation controller. Fresh installation of Linux done and awaiting connection of simulation hardware and software integration."
+            },
+            {
+              "date": "2026-10-12",
+              "displayDate": "October 12, 2026",
+              "text": "Finished acquisition of simulation hardware. (40 CPU threads, 86GB RAM). Waiting on unmanaged ethernet port arrival."
             }
           ]
         },
