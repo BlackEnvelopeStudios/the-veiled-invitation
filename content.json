@@ -125,6 +125,11 @@
           "description": "Updates for the hardware and software development of the mechanics simulator, as well as the results of ran tests.",
           "entries": [
             {
+              "date": "2026-11-08",
+              "displayDate": "November 8, 2026",
+              "text": "- 30% of hardware has now had it's firmware changed, along with a fresh install of Ubuntu Server.\n- 30% of hardware has now been made headless.\n- 30% of hardware is now connected via SSH to controller.\n- 30% of hardware is now being monitored from controller using Netdata."
+            },
+            {
               "date": "2026-11-07",
               "displayDate": "November 7, 2026",
               "text": "- Upgraded simulation hardware from 86GB of RAM to 192GB of RAM.\n- All hardware is now physically connected to the controller via ethernet.\n- 20% of hardware has had it's firmware changed, along with a fresh install of Ubuntu Server.\n- 20% of hardware has now been made headless.\n- 20% of hardware is now connected via SSH to controller.\n- 20% of hardware is now being monitored from controller using Netdata."
