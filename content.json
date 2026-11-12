@@ -125,6 +125,11 @@
           "description": "Updates for the hardware and software development of the mechanics simulator, as well as the results of ran tests.",
           "entries": [
             {
+              "date": "2026-11-11",
+              "displayDate": "November 11, 2026",
+              "text": "- 60% of hardware has now had it's firmware changed, along with a fresh install of Ubuntu Server.\n- 60% of hardware has now been made headless.\n- 60% of hardware is now connected via SSH to controller.\n- 60% of hardware is now being monitored from controller using Netdata."
+            },
+            {
               "date": "2026-11-09",
               "displayDate": "November 9, 2026",
               "text": "- 50% of hardware has now had it's firmware changed, along with a fresh install of Ubuntu Server.\n- 50% of hardware has now been made headless.\n- 50% of hardware is now connected via SSH to controller.\n- 50% of hardware is now being monitored from controller using Netdata."
