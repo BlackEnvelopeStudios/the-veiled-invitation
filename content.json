@@ -125,6 +125,16 @@
           "description": "Updates for the hardware and software development of the mechanics simulator, as well as the results of ran tests.",
           "entries": [
             {
+              "date": "2026-11-15",
+              "displayDate": "November 15, 2026",
+              "text": "- Due to NetData's limitations with dashboards, migrated dashboard for cluster to Grafana utilizing Prometheus.\n- Ran CPU Stress Test, CPU Stability Test, and Memory Test on 10% of cluster. This portion passed all tests.",
+              "image": {
+                "file": "ea519f4d7d4084006453ca048670c4dfb6591bc198b7163ab0177675324f09ab.png",
+                "alt": "Grafana Dashboard Image",
+                "caption": ""
+              }
+            },
+            {
               "date": "2026-11-14",
               "displayDate": "November 14, 2026",
               "text": "- Entire hardware cluster has installed custom Firmware.\n- Entire hardware cluster has now been made headless.\n- Entire hardware cluster is now connected via SSH to controller.\n- Entire hardware cluster is now being monitored from controller using Netdata."
