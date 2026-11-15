@@ -300,6 +300,9 @@ footer span:first-child { color: var(--gold); }
 .update-lines { margin: 0; padding-left: 1em; color: var(--muted); }
 .update-lines li { padding-left: .25em; margin-bottom: .4em; }
 .update-lines li::marker { content: "- "; }
+.update-image { margin: 1.25rem 0 0; }
+.update-image img { display: block; max-width: 100%; height: auto; border: 1px solid var(--line); }
+.update-image figcaption { color: var(--muted); margin-top: .5rem; font-size: .94rem; }
 .update-lines .update-line-unmarked::marker { content: ""; }
 
 .update-category .update-category-description {

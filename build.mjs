@@ -142,6 +142,7 @@ function render(page, soul = null, creature = null, updateCategory = null) {
       ${updateCategory.entries?.length ? updateCategory.entries.map(entry => `<article class="update-entry">
         <h2><time datetime="${escape(entry.date)}">${escape(entry.displayDate)}</time></h2>
         <ul class="update-lines">${updateLines(entry).map((line, index) => `<li${entry.unmarkedLines?.includes(index) ? ' class="update-line-unmarked"' : ''}>${escape(line)}</li>`).join('')}</ul>
+        ${entry.image ? `<figure class="update-image"><img src="../../update-images/${escape(entry.image.file)}" alt="${escape(entry.image.alt)}" loading="lazy" decoding="async">${entry.image.caption ? `<figcaption>${escape(entry.image.caption)}</figcaption>` : ''}</figure>` : ''}
       </article>`).join('\n') : '<p>No updates posted yet.</p>'}
     </section>` : creature ? `
     <article class="creature-profile" aria-labelledby="creature-title">
@@ -298,6 +299,15 @@ for (const page of content.pages) {
   }
 }
 await copyFile(path.join(root, 'styles.css'), path.join(output, 'styles.css'));
+for (const category of content.pages.find(page => page.slug === 'updates')?.categories ?? []) {
+  for (const { image } of category.entries ?? []) {
+    if (!image) continue;
+    if (!/^[a-f0-9]{64}\.(png|jpg|webp)$/.test(image.file)) throw new Error('Invalid update image filename');
+    const directory = path.join(output, 'update-images');
+    await mkdir(directory, { recursive: true });
+    await copyFile(path.join(root, 'update-images', image.file), path.join(directory, image.file));
+  }
+}
 await copyFile(path.join(root, 'visitor-tracking.js'), path.join(output, 'visitor-tracking.js'));
 await copyFile(path.join(root, 'analytics.json'), path.join(output, 'analytics.json'));
 await copyFile(path.join(root, 'creatures.js'), path.join(output, 'creatures.js'));
