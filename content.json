@@ -125,6 +125,11 @@
           "description": "Updates for the hardware and software development of the mechanics simulator, as well as the results of ran tests.",
           "entries": [
             {
+              "date": "2026-11-17",
+              "displayDate": "November 17, 2026",
+              "text": "- Ran CPU Stress Test, CPU Stability Test, and Memory Test on another 20% of cluster. This portion passed all tests. 40% of cluster has passed all tests."
+            },
+            {
               "date": "2026-11-16",
               "displayDate": "November 16, 2026",
               "text": "- Ran CPU Stress Test, CPU Stability Test, and Memory Test on another 10% of cluster. This portion passed all tests. 20% of cluster tested."
