@@ -129,7 +129,8 @@ function creatureDirectory() {
 function render(page, soul = null, creature = null, updateCategory = null) {
   const detail = soul || creature;
   const prefix = detail || updateCategory ? '../../' : page ? '../' : './';
-  const nav = content.pages.map(item => `<a href="${prefix}${item.slug}/"${page?.slug === item.slug ? ` aria-current="${detail || updateCategory ? 'location' : 'page'}"` : ''}>${escape(item.title)}</a>`).join('');
+  const navigationPages = [...content.pages.filter(item => item.slug === 'updates'), ...content.pages.filter(item => item.slug !== 'updates')];
+  const nav = navigationPages.map(item => `<a href="${prefix}${item.slug}/"${page?.slug === item.slug ? ` aria-current="${detail || updateCategory ? 'location' : 'page'}"` : ''}>${escape(item.title)}</a>`).join('');
   const title = updateCategory ? `${updateCategory.title} | Updates | ${content.title}` : detail ? `${detail.name} | ${content.title}` : page ? `${page.title} | ${content.title}` : content.title;
   const body = updateCategory ? `
     <section class="page-heading">
