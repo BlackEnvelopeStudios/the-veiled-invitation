@@ -125,6 +125,16 @@
           "description": "Updates for the hardware and software development of the mechanics simulator, as well as the results of ran tests.",
           "entries": [
             {
+              "date": "2026-11-22",
+              "displayDate": "November 22, 2026",
+              "text": "- Created three PowerShell commands and shortcuts to shutdown, suspend, or wake entire cluster at once.",
+              "image": {
+                "file": "b91f6c1527d9c8d9d70769b5813ef4a2ae9e96519b5bccac717ae9162dd71db3.png",
+                "alt": "Cluster Shortcut Image",
+                "caption": ""
+              }
+            },
+            {
               "date": "2026-11-21",
               "displayDate": "November 21, 2026",
               "text": "- Ran CPU Stress Test, CPU Stability Test, and Memory Test on remaining portions of cluster. This portion passed all tests. Entire cluster has passed.\n- Began work on Simulation Controller Dashboard."
