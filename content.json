@@ -125,6 +125,11 @@
           "description": "Updates for the hardware and software development of the mechanics simulator, as well as the results of ran tests.",
           "entries": [
             {
+              "date": "2026-11-23",
+              "displayDate": "November 23, 2026",
+              "text": "- Created Grafana notifications for CPU Temperature, RAM Utilization, Disk Utilization, and Offline Cluster Portions. These notifications appear via desktop and email. These will be utilized when running simulations unsupervised.\n- Added miscellaneous security features."
+            },
+            {
               "date": "2026-11-22",
               "displayDate": "November 22, 2026",
               "text": "- Created three PowerShell commands and shortcuts to shutdown, suspend, or wake entire cluster at once.",
